@@ -1,10 +1,10 @@
 # Site settings
 title: BY Blog
-SEOTitle: feimo的博客 | BY Blog
+SEOTitle: feimo的博客 
 header-img: img/post-bg-mma-22.jpg
 email: feimolee@gmail.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, feimo,php,python"
+keyword: "feimo Blog, php,python"
 url: "http://feimoc.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/feimoc/feimoc.github.io.git" # you code repository
