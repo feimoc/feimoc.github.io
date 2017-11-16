@@ -30,12 +30,12 @@ php composer.phar require facebook/webdriver
  ```$xslt
 java -jar selenium-server-standalone-#.jar
  ```
- ### 启动Firefox
+ ## 启动Firefox
  确保安装了最新的Firefox和Geckodriver。
   ```$xslt
   $driver  =  RemoteWebDriver :: create($host，DesiredCapabilities :: firefox());
   ```
-  ### 启动Chrome
+  ## 启动Chrome
    ```$xslt
    $driver  =  RemoteWebDriver :: create($host，DesiredCapabilities :: chrome());
    ```
@@ -49,3 +49,7 @@ java -jar selenium-server-standalone-#.jar
         $caps->setCapability(FirefoxDriver::PROFILE, $profile);
         $driver = RemoteWebDriver::create($host, $caps);
 ```
+> 参考
+> 
+> -  [php-webdriver](https://github.com/facebook/php-webdriver)
+> - [popzhangzhi/WDsystem](https://github.com/popzhangzhi/WDsystem)
