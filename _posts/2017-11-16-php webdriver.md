@@ -30,18 +30,18 @@ php composer.phar require facebook/webdriver
  ```$xslt
 java -jar selenium-server-standalone-#.jar
  ```
- ## 启动Firefox
- 确保安装了最新的Firefox和Geckodriver。
+  ##### 启动Firefox
+  确保安装了最新的Firefox和Geckodriver。
   ```$xslt
   $driver  =  RemoteWebDriver :: create($host，DesiredCapabilities :: firefox());
   ```
-  ## 启动Chrome
+  #### 启动Chrome
    ```$xslt
    $driver  =  RemoteWebDriver :: create($host，DesiredCapabilities :: chrome());
    ```
- ### 您也可以自定义所需的功能 例如我在Firefox打开https链接
+  ##### 您也可以自定义所需的功能 例如我在Firefox打开https链接
  ```php
-//打开一个firefox
+
         $host = 'http://localhost:4444/wd/hub';
         $profile = new FirefoxProfile();
         $profile->setPreference('security.enterprise_roots.enabled', true);//设置下profile参数可以正常访问https
