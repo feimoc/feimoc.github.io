@@ -39,7 +39,7 @@ java -jar selenium-server-standalone-#.jar
    ```$xslt
    $driver  =  RemoteWebDriver :: create($host，DesiredCapabilities :: chrome());
    ```
-#### 您也可以自定义所需的功能 例如我在Firefox打开https链接
+#### 你也可以自定义所需的功能 例如我在Firefox打开https链接
  ```php
     $host = 'http://localhost:4444/wd/hub';
     $profile = new FirefoxProfile();
