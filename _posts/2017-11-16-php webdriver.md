@@ -2,7 +2,7 @@
 layout:     post
 title:      php webdriver
 subtitle:   php 进阶
-date:       2017-01-06
+date:       2017-11-06
 author:     feimo
 header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
@@ -30,16 +30,16 @@ php composer.phar require facebook/webdriver
  ```$xslt
 java -jar selenium-server-standalone-#.jar
  ```
-  #### 启动Firefox
+#### 启动Firefox
   确保安装了最新的Firefox和Geckodriver。
   ```$xslt
   $driver  =  RemoteWebDriver :: create($host，DesiredCapabilities :: firefox());
   ```
-  #### 启动Chrome
+#### 启动Chrome
    ```$xslt
    $driver  =  RemoteWebDriver :: create($host，DesiredCapabilities :: chrome());
    ```
-  #### 您也可以自定义所需的功能 例如我在Firefox打开https链接
+#### 您也可以自定义所需的功能 例如我在Firefox打开https链接
  ```php
     $host = 'http://localhost:4444/wd/hub';
     $profile = new FirefoxProfile();
