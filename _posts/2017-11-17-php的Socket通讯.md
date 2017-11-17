@@ -143,7 +143,7 @@ socket_close($sock);
 ?>
 ```
 这是socket的服务端代码。然后运行cmd，注意是自己的程序存放路径啊。
-![](https://i.imgur.com/Jfp7AF9.png)
+![](https://i.imgur.com/JQFoSnE.png)
 没有反映，对现在服务端的程序已经开始运行，端口已经开始监听了。运行netstat -ano可以查看端口情况，我的是1935端口
 ![](https://i.imgur.com/JUw4Gra.png)
 看，端口已经处于LISTENING状态了。接下来我们只要运行客户端程序即可连接上。上代码
@@ -216,8 +216,8 @@ do {
 socket_close($sock);
 ?>
 ```
-![](https://i.imgur.com/t0lwz7T.png)
-![](https://i.imgur.com/zvrKbkX.png)
+![](https://i.imgur.com/FSzsnZz.png)
+![](https://i.imgur.com/COaXIvV.png)
 至此客户端已经连接上服务端了。
 ### 案例二：代码详解
 ```php
