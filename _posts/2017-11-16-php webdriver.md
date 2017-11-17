@@ -32,11 +32,11 @@ java -jar selenium-server-standalone-#.jar
  ```
 #### 启动Firefox
   确保安装了最新的Firefox和Geckodriver。
-  ```$xslt
+  ```php
   $driver  =  RemoteWebDriver :: create($host，DesiredCapabilities :: firefox());
   ```
 #### 启动Chrome
-   ```$xslt
+   ```php
    $driver  =  RemoteWebDriver :: create($host，DesiredCapabilities :: chrome());
    ```
 #### 你也可以自定义所需的功能 例如我在Firefox打开https链接
