@@ -2,7 +2,7 @@
 layout:     post
 title:      php的Socket通讯
 subtitle:   php 进阶
-date:       2017-11-16
+date:       2017-11-17
 author:     feimo
 header-img: img/tag-bg-o.jpg
 catalog: true
@@ -316,6 +316,5 @@ socket_close($socket);
     socket_close($socket);
     
     ```
-> [原文链接](http://www.cnblogs.com/thinksasa/archive/2013/02/26/2934206.html)
-
+> 原文链接 [(http://www.cnblogs.com/thinksasa/archive/2013/02/26/2934206.html)](http://www.cnblogs.com/thinksasa/archive/2013/02/26/2934206.html)
         
