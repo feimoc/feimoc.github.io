@@ -43,7 +43,7 @@ java -jar selenium-server-standalone-#.jar
  ```php
     $host = 'http://localhost:4444/wd/hub';
     $profile = new FirefoxProfile();
-    $profile->setPreference('security.enterprise_roots.enabled', true);//设置下profile参数可以正常访问https
+    $profile->setPreference('security.enterprise_roots.enabled', true);
     $caps = DesiredCapabilities::firefox();
     $caps->setCapability(FirefoxDriver::PROFILE, $profile);
     $driver = RemoteWebDriver::create($host, $caps);
