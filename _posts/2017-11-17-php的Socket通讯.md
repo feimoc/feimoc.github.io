@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Swoole的心跳功能
+title:      php的Socket通讯
 subtitle:   php 进阶
 date:       2017-11-16
 author:     feimo
@@ -42,7 +42,7 @@ socket_close() 关闭一个socket资源
 socket_connect() 开始一个socket连接
 socket_create_listen() 在指定端口打开一个socket监听
 socket_create_pair() 产生一对没有区别的socket到一个数组里
-socket_create() 产生一个socket，相当于产生一个socket的数据结构
+socket_create() 产生一个socket,相当于产生一个socket的数据结构
 socket_get_option() 获取socket选项
 socket_getpeername() 获取远程类似主机的ip地址
 socket_getsockname() 获取本地socket的ip地址
