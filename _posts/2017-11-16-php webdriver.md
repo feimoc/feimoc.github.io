@@ -11,7 +11,7 @@ tags:
     - Webdriver
     - Web爬虫
 ---
-# php webdriver是什么？
+# php webdriver是什么
 
 Php-webdriver库是Selenium WebDriver的PHP语言绑定，允许您从PHP控制Web浏览器进行自动化测试和web爬虫，支持IE chrome Firefox
 个库的概念非常类似于Selenium项目的“官方”Java，.NET，Python和Ruby绑定 
