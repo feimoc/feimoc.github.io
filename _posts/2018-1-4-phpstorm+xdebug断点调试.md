@@ -12,7 +12,7 @@ tags:
 ---
 
 ### 环境
-- 系统版本 Windwos
+- 系统版本 Windows
 - PHP版本7.0
 - phpstorm版本 2017.1
 
