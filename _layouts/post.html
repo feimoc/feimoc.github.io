@@ -18,7 +18,7 @@ layout: default
         width: 100%;
         height: 100%;
         position: absolute;
-        background: rgba(0,0,0, {{ page.header-mask }});
+    background: rgba(0,0,0, {{ page.header-mask }});
     }
     {% endif %}
 </style>
@@ -35,7 +35,7 @@ layout: default
                     </div>
                     <h1>{{ page.title }}</h1>
                     {% comment %}
-                        always create a h2 for keeping the margin , Hux
+                    always create a h2 for keeping the margin , Hux
                     {% endcomment %}
                     {% comment %} if page.subtitle {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
@@ -52,75 +52,56 @@ layout: default
     <div class="container">
         <div class="row">
 
-    <!-- Post Container -->
+            <!-- Post Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
 
-				{{ content }}
+                {{ content }}
 
                 <hr style="visibility: hidden;">
-
-                {% if site.duoshuo_share && site.duoshuo_username %}
-                <!-- 多说 Share start -->
-                <div class="ds-share"
-                    style="text-align: right"
-                    data-thread-key="{{page.id}}"
-                    data-title="{{page.title}}"
-                    data-url="{{site.url}}{{site.baseurl}}{{page.url}}"
-                    data-images="{{ site.url }}{{site.baseurl}}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"
-                    data-content="{{ content | strip_html | truncate:80 }} | {{ site.SEOTitle }} " >
-                    <div class="ds-share-inline">
-                      <style> 
-                        .ds-share-icons-16 {display:none;} 
-                      </style>
-                      <ul class="ds-share-icons-16">
-                        <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
-                        <li><a class="ds-wechat flat" href="javascript:void(0);" data-service="wechat">微信</a></li>
-                        <li><a class="ds-weibo flat" href="javascript:void(0);" data-service="weibo">微博</a></li>
-                        <li><a class="ds-douban flat" href="javascript:void(0);" data-service="douban">豆瓣</a></li>
-                      </ul>
-                      <div class="ds-share-icons-more">
-                      </div>
-                    </div>
-                <hr>
-                </div>
-                <!-- 多说 Share end-->
-                {% endif %}
-
 
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
-                        Previous<br>
-                        <span>{{page.previous.title}}</span>
+                            Previous<br>
+                            <span>{{page.previous.title}}</span>
                         </a>
                     </li>
                     {% endif %}
                     {% if page.next.url %}
                     <li class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
-                        Next<br>
-                        <span>{{page.next.title}}</span>
+                            Next<br>
+                            <span>{{page.next.title}}</span>
                         </a>
                     </li>
                     {% endif %}
                 </ul>
 
 
-                {% if site.duoshuo_username %}
-                <!-- 多说评论框 start -->
-                <div class="comment">
-                    <div class="ds-thread"
-                        data-thread-key="{{page.id}}"
-                        data-title="{{page.title}}"
-                        data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
-                    </div>
-                </div>
-                <!-- 多说评论框 end -->
+                <!--Gitalk评论start  -->
+                {% if site.gitalk.enable %}
+                <!-- 引入Gitalk评论插件  -->
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+                <div id="gitalk-container"></div>
+                <script type="text/javascript">
+                    var gitalk = new Gitalk({
+                        clientID: '{{site.gitalk.clientID}}',
+                        clientSecret: '{{site.gitalk.clientSecret}}',
+                        repo: '{{site.gitalk.repo}}',
+                        owner: '{{site.gitalk.owner}}',
+                        admin: ['{{site.gitalk.admin}}'],
+                        distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+                    id: window.location.pathname,
+                    });
+                    gitalk.render('gitalk-container');
+                </script>
                 {% endif %}
+                <!-- Gitalk end -->
 
                 {% if site.disqus_username %}
                 <!-- disqus 评论框 start -->
@@ -130,10 +111,10 @@ layout: default
                 <!-- disqus 评论框 end -->
                 {% endif %}
 
-            </div>  
+            </div>
 
-    <!-- Side Catalog Container -->
-        {% if page.catalog %}
+            <!-- Side Catalog Container -->
+            {% if page.catalog %}
             <div class="
                 col-lg-2 col-lg-offset-0
                 visible-lg-block
@@ -147,9 +128,9 @@ layout: default
                     <ul class="catalog-body"></ul>
                 </div>
             </div>
-        {% endif %}
+            {% endif %}
 
-    <!-- Sidebar Container -->
+            <!-- Sidebar Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
@@ -161,14 +142,14 @@ layout: default
                     <hr class="hidden-sm hidden-xs">
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
-        				{% for tag in site.tags %}
-                            {% if tag[1].size > {{site.featured-condition-size}} %}
-                				<a href="/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-                                    {{ tag[0] }}
-                                </a>
-                            {% endif %}
-        				{% endfor %}
-        			</div>
+                        {% for tag in site.tags %}
+                        {% if tag[1].size > {{site.featured-condition-size}} %}
+                        <a href="/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+                            {{ tag[0] }}
+                        </a>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
                 </section>
                 {% endif %}
 
@@ -178,7 +159,7 @@ layout: default
                 <h5>FRIENDS</h5>
                 <ul class="list-inline">
                     {% for friend in site.friends %}
-                        <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+                    <li><a href="{{friend.href}}">{{friend.title}}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}
@@ -186,27 +167,6 @@ layout: default
         </div>
     </div>
 </article>
-
-
-{% if site.duoshuo_username %}
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    // dynamic User by Hux
-    var _user = '{{site.duoshuo_username}}';
-
-    // duoshuo comment query.
-    var duoshuoQuery = {short_name: _user };
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0]
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-</script>
-<!-- 多说公共JS代码 end -->
-{% endif %}
 
 
 {% if site.disqus_username %}
@@ -231,21 +191,21 @@ layout: default
 <!-- async load function -->
 <script>
     function async(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
+        var d = document, t = 'script',
+            o = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        o.src = u;
+        if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+        s.parentNode.insertBefore(o, s);
     }
 </script>
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
     async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
-          visible: 'always',
-          placement: 'right',
-          icon: '#'
+            visible: 'always',
+            placement: 'right',
+            icon: '#'
         };
         anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
     })
