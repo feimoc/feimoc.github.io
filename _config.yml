@@ -55,7 +55,7 @@ kramdown:
 
 # 评论系统
 # Disqus settings（https://disqus.com/）
-disqus_username: feimo
+#disqus_username: feimo
 
 # 多说 将于2017年6月1日正式关停服务，建议使用 Disqus（http://dev.duoshuo.com/threads/58d1169ae293b89a20c57241）
 # Duoshuo settings
@@ -63,7 +63,14 @@ disqus_username: feimo
 # Share component is depend on Comment so we can NOT use share only.
 # duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
-
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 55e363613f8fdcf6b061   #生成的clientID
+  clientSecret: d7f3d62212535f6dc7c71829233c76f33971d6d5  #同上
+  repo:  feimoc.github.io    #仓库名称
+  owner: feimoc    #github用户名
+  admin: feimoc
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # Analytics settings
