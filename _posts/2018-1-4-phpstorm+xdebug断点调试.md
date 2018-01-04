@@ -10,12 +10,13 @@ tags:
     - phpstorm
     - Xdebug
 ---
-# 环境
+
+### 环境
 - 系统版本 Windwos
 - PHP版本7.0
 - Phpstorm版本 2017.1
 
-# Xdebug配置
+### Xdebug配置
 1. 首先去xdebug官网下载对应php版本的xdebug 放到php ext目录下面：F:\phpStudy\php\php-7.0.12-nts\ext
 2. 打开php.ini添加如下代码
    ```
@@ -32,30 +33,30 @@ xdebug.idekey = PHPSTROM
 zend_extension="F:\phpStudy\php\php-7.0.12-nts\ext\php_xdebug.dll"   
    ```
 
-# phpstorm配置
-### 指定本地php环境
+### phpstorm配置
+#### 指定本地php环境
 ![](https://i.imgur.com/ip4Ov4g.png)
 ![](https://i.imgur.com/8rQZQYW.png)
 
-### 添加本地虚拟主机域名
+#### 添加本地虚拟主机域名
 ![](https://i.imgur.com/lAO1gso.png)
 
-#配置chrome
+### 配置chrome
 首先我们需要对浏览器安装Xdebug helper插件，用于在请求中添加参数，类似：XDEBUG_SESSION_START=session_name。
-Chrome: [https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc；](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc； "chrome")
+Chrome: [https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc "chrome")
 Firefox: [https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/](https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/ "Firefox")
 ![](https://i.imgur.com/w67ICBB.png)
 更改配置
 ![](https://i.imgur.com/a0p5ob4.png)
 
-# 运行项目
-### 运行项目之前开启监听
+### 运行项目
+#### 运行项目之前开启监听
 ![](https://i.imgur.com/PuDxm74.png)
-### 打断点 浏览器访问
+#### 打断点 浏览器访问
 ![](https://i.imgur.com/HMPhBJH.png)
-### 首次运行域名会出现一个弹框，点击Accept
+#### 首次运行域名会出现一个弹框，点击Accept
 ![](https://i.imgur.com/IBGbxbu.png)
-### 断点成功
+#### 断点成功
 ![](https://i.imgur.com/buNulUu.png)
 
 - 左侧绿色三角形 ： Resume Program，表示將继续执行，直到下一个中断点停止。
