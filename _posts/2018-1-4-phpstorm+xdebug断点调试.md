@@ -17,7 +17,7 @@ tags:
 - phpstorm版本 2017.1
 
 ### Xdebug配置
-1. 首先去xdebug官网下载对应php版本的xdebug 放到php ext目录下面：F:\phpStudy\php\php-7.0.12-nts\ext
+1. 首先去xdebug官网下载对应php版本的xdebug 放到php ext目录下面：F:\phpStudy\php\php-7.0.12-nts\ext [链接地址](https://xdebug.org/download.php)
 2. 打开php.ini添加如下代码
 ```
 [XDebug]
