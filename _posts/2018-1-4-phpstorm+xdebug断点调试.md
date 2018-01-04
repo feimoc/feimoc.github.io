@@ -14,7 +14,7 @@ tags:
 ### 环境
 - 系统版本 Windwos
 - PHP版本7.0
-- Phpstorm版本 2017.1
+- phpstorm版本 2017.1
 
 ### Xdebug配置
 1. 首先去xdebug官网下载对应php版本的xdebug 放到php ext目录下面：F:\phpStudy\php\php-7.0.12-nts\ext
@@ -43,7 +43,7 @@ zend_extension="F:\phpStudy\php\php-7.0.12-nts\ext\php_xdebug.dll"
 
 ### 配置chrome
 首先我们需要对浏览器安装Xdebug helper插件，用于在请求中添加参数，类似：XDEBUG_SESSION_START=session_name。
-Chrome: [https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc "chrome")
+Chrome: [https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc](https://chrome.google.com/webstore/detail/xdebug-helper/)
 Firefox: [https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/](https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/ "Firefox")
 ![](https://i.imgur.com/w67ICBB.png)
 更改配置
