@@ -4,7 +4,7 @@ title:      phpstorm+xdebug断点调试
 subtitle:   phpstorm
 date:       2018-1-4
 author:     feimo
-header-img: img/tag-bg-o.jpg
+header-img: img/post-bg-phpstorm.jpg
 catalog: true
 tags:
     - phpstorm
