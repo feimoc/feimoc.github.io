@@ -37,6 +37,8 @@ zend_extension="F:\phpStudy\php\php-7.0.12-nts\ext\php_xdebug.dll"
 #### 指定本地php环境
 ![](https://i.imgur.com/ip4Ov4g.png)
 ![](https://i.imgur.com/8rQZQYW.png)
+这里的端口设置和php.ini全部设置为9000
+![](https://i.imgur.com/QljWG4i.png)
 
 #### 添加本地虚拟主机域名
 ![](https://i.imgur.com/lAO1gso.png)
