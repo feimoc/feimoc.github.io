@@ -19,7 +19,7 @@ tags:
 ### Xdebug配置
 1. 首先去xdebug官网下载对应php版本的xdebug 放到php ext目录下面：F:\phpStudy\php\php-7.0.12-nts\ext
 2. 打开php.ini添加如下代码
-   ```
+```
 [XDebug]
 xdebug.profiler_output_dir="F:\phpStudy\tmp\xdebug"
 xdebug.trace_output_dir="F:\phpStudy\tmp\xdebug"
@@ -31,7 +31,7 @@ xdebug.remote_host = "127.0.0.1"
 xdebug.remote_port = 9000
 xdebug.idekey = PHPSTROM 
 zend_extension="F:\phpStudy\php\php-7.0.12-nts\ext\php_xdebug.dll"   
-   ```
+```
 
 ### phpstorm配置
 #### 指定本地php环境
