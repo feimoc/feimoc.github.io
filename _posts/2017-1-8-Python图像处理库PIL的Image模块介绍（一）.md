@@ -54,24 +54,7 @@ Image模块是PIL中最重要的模块，它有一个类叫做image，与模块�
 >>> im= Image.open("D:\\Code\\Python\\test\\img\\test.gif")
 >>> im.size
 ```
-####  Palette
-- 定义：im.palette ⇒ palette or None
-- 含义：颜色调色板表格。如果图像的模式是“P”，则返回ImagePalette类的实例；否则，将为None。
-- 例子：
 
-```python
->>> from PIL import Image
->>> im= Image.open("D:\\Code\\Python\\test\\img\\test.jpg")
->>> im.mode
-'RGB'
->>>im.palette
->>> im= Image.open("D:\\Code\\Python\\test\\img\\test.gif")
->>> im.mode
-'P'
->>>im.palette
-<PIL.ImagePalette.ImagePaletteobject at 0x035E7AD0>
->>> pl= im.palette
-```
 #### Info
 - 定义：im.info ⇒ dictionary
 - 含义：存储图像相关数据的字典。文件句柄使用该字典传递从文件中读取的各种非图像信息。大多数方法在返回新的图像时都会忽略这个字典；因为字典中的键并非标准化的，对于一个方法，它不能知道自己的操作如何影响这个字典。如果用户需要这些信息，需要在方法open()返回时保存这个字典。
