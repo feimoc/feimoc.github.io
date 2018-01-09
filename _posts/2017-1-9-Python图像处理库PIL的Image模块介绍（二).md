@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Python图像处理库PIL的Image模块介绍（一）
+title:      Python图像处理库PIL的Image模块介绍（二）
 subtitle:   python学习之路
 date:       2018-1-4
 author:     feimo
