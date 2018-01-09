@@ -18,13 +18,13 @@ Image模块是PIL中最重要的模块，它有一个类叫做image，与模块�
 - 例子：
 ```python
 >>>from PIL import Image
->>> im= Image.open("D:\\Code\\Python\\test\\img\\test.jpg")
+>>> im= Image.open("test.jpg")
 >>>im.format
 'JPEG'
 ```
 注：test.jpg是JPEG图像，所以其文件格式为JPEG。
 ```python
->>> im= Image.open("D:\\Code\\Python\\test\\img\\test.gif")
+>>> im= Image.open("test.gif")
 >>>im.format
 'GIF'
 ```
@@ -35,10 +35,10 @@ Image模块是PIL中最重要的模块，它有一个类叫做image，与模块�
 - 例子：
 ```python
 >>>from PIL import Image
->>> im = Image.open("D:\\Code\\Python\\test\\img\\test.jpg")
+>>> im = Image.open("test.jpg")
 >>> im.mode
 'RGB'
->>> im = Image.open("D:\\Code\\Python\\test\\img\\test.gif")
+>>> im = Image.open("test.gif")
 >>> im.mode
 'P'
 ```
@@ -48,10 +48,10 @@ Image模块是PIL中最重要的模块，它有一个类叫做image，与模块�
 - 例子：
 ```python
 >>>from PIL import Image
->>> im= Image.open("D:\\Code\\Python\\test\\img\\test.jpg")
+>>> im= Image.open("test.jpg")
 >>>im.size
 (800, 450)
->>> im= Image.open("D:\\Code\\Python\\test\\img\\test.gif")
+>>> im= Image.open("test.gif")
 >>> im.size
 ```
 #### Palette
@@ -60,15 +60,14 @@ Image模块是PIL中最重要的模块，它有一个类叫做image，与模块�
 - 例子：
 ```python
 >>> from PIL import Image
->>> im= Image.open("D:\\Code\\Python\\test\\img\\test.jpg")
->>> im.mode
+>>>> im= Image.open("test.jpg")
+>>>> im.mode
 'RGB'
 >>>im.palette
->>> im= Image.open("D:\\Code\\Python\\test\\img\\test.gif")
+>>> im= Image.open("test.gif")
 >>> im.mode
 'P'
 >>>im.palette
-<PIL.ImagePalette.ImagePaletteobject at 0x035E7AD0>
 >>> pl= im.palette
 ```
 
@@ -79,10 +78,10 @@ Image模块是PIL中最重要的模块，它有一个类叫做image，与模块�
 - 例子：
 ```python
 >>>from PIL import Image
->>> im= Image.open("D:\\Code\\Python\\test\\img\\test.jpg")
+>>> im= Image.open("test.jpg")
 >>>im.info
 {'jfif_version':(1, 1), 'jfif': 257, 'jfif_unit': 1, 'jfif_density': (96, 96), 'dpi': (96, 96)}
->>> im= Image.open("D:\\Code\\Python\\test\\img\\test.gif")
+>>> im= Image.open("test.gif")
 >>>im.info
 {'duration':100, 'version': 'GIF89a', 'extension': ('NETSCAPE2.0', 795L), 'background': 0,'loop': 0}
 ```
