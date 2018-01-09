@@ -2,7 +2,7 @@
 layout:     post
 title:      Python图像处理库PIL的Image模块介绍（一）
 subtitle:   python学习之路
-date:       2018-1-4
+date:       2018-1-8
 author:     feimo
 header-img: img/post-bg-python.jpg
 catalog: true
