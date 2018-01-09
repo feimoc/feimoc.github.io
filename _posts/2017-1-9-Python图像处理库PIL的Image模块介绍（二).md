@@ -18,7 +18,7 @@ tags:
 - 例子：
 ```python
 >>>from PIL import Image
->>> im= Image.open("D:\\Code\\Python\\test\\img\\test.jpg")
+>>> im= Image.open("test.jpg")
 >>>im.format
 'JPEG'
 ```
@@ -36,9 +36,9 @@ tags:
 - 例子：
 ```python
 >>> from PIL import Image
->>> im= Image.open("D:\\Code\\Python\\test\\img\\test.jpg")
+>>> im= Image.open("test.jpg")
 >>>im.show()
->>> im= Image.open("D:\\Code\\Python\\test\\img\\test.jpg", "r")
+>>> im= Image.open("test.jpg", "r")
 >>>im.show()
 ```
 #### Blend
@@ -79,7 +79,7 @@ test01.jpg和test02.jpg两张图像size都为1024x768，mode为“RGB”。它�
 - 例子：
 ```python
 >>>from PIL import Image
->>>im01 = Image.open("D:\\Code\\Python\\test\\img\\test01.jpg")
+>>>im01 = Image.open("test01.jpg")
 >>> def fun(x):
          return x * 0.5
 >>>im_eval = Image.eval(im01, fun)
