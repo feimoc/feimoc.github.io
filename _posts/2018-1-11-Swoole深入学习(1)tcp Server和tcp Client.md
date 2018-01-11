@@ -49,7 +49,7 @@ class Server
 
         //启动10个work，总共12个进程。
         /*
-        ➜  Event git:(master) pstree |grep server.php
+        ➜  Event git:(master) pstree |grep server.php (centos下执行pstree -ap)
     |   \-+= 54172  php server.php  #Master进程
     |     \-+- 54173  php server.php  # Manager 进程
     |       |--- 54174  php server.php  #Work 进程

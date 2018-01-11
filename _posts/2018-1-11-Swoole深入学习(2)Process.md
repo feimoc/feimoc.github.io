@@ -22,31 +22,7 @@ for($i=0; $i<=10 ; $i++){
     echo PHP_EOL . $pid;//
 }
 ```
-回调方法如果是其他class文件中的function我们可以按照下面的方式进行回调。
-```php
-<?php
-class feimo
-{
 
-    function callback_function(swoole_process $worker)
-    {
-        echo $worker->pid . "\n";
-    }
-
-}
-
-$workers = [];
-$worker_num = 3;
-
-for ($i = 0; $i < $worker_num; $i++) {
-    $feimo = new feimo();
-    $process = new Swoole\Process(array($feimo, 'callback_function'), false, false);
-    $pid = $process->start();
-    $workers[$pid] = $process;
-
-}
-
-```
 
 ### 进程间的通信
 如果是非常简单的多进程执行任务，那么进程间就不需要通讯了，实际情况下，很多业务是需要通讯的，比如，发邮件，如果子进程发送失败了，那么是要通知主进程的等等。
