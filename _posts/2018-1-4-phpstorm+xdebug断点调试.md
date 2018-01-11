@@ -56,7 +56,7 @@ zend_extension="F:\phpStudy\php\php-7.0.12-nts\ext\php_xdebug.dll"
 ![](https://i.imgur.com/PuDxm74.png)
 #### 打断点 浏览器访问
 ![](https://i.imgur.com/HMPhBJH.png)
-#### 首次运行域名会出现一个弹框，点击Accept
+#### 首次运行域名如果出现一个弹框，点击Accept
 ![](https://i.imgur.com/IBGbxbu.png)
 #### 断点成功
 ![](https://i.imgur.com/buNulUu.png)
