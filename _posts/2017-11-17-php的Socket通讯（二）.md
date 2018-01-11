@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      php的Socket通讯(2)
+title:      php的Socket通讯（二）
 subtitle:   php 进阶
 date:       2017-11-17
 author:     feimo
