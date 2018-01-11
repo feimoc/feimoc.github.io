@@ -43,6 +43,7 @@ tags:
 >>> im= Image.open("test.jpg", "r")
 >>>im.show()
 ```
+
 #### Blend
 
 - 定义：Image.blend(image1,image2, alpha) ⇒ image

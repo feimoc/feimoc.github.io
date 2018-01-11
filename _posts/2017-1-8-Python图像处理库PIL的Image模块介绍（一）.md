@@ -44,6 +44,7 @@ Image模块是PIL中最重要的模块，它有一个类叫做image，与模块�
 >>> im.mode
 'P'
 ```
+
 #### Size
 
 - 定义：im.size ⇒ (width, height)
@@ -57,6 +58,7 @@ Image模块是PIL中最重要的模块，它有一个类叫做image，与模块�
 >>> im= Image.open("test.gif")
 >>> im.size
 ```
+
 #### Palette
 
 - 定义：im.palette ⇒ palette or None
