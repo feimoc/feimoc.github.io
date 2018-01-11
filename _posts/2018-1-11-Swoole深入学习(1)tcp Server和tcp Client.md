@@ -506,7 +506,9 @@ Enter Msg:Received: Data in Task 0
 2. onTash 要return 数据 
 3. onFinish 会接收到onTash的数据，标记成完成。 
 4. swoole_event_add 把输入绑定成事件，这个后续将，这样client就可以连续的多次输入。
+
 ### swoole的架构
+
 上面说了这么，图表总结一下swoole结构：
 swoole采用 多线程Reactor+多进程Worker
 ![](https://i.imgur.com/ZlyUXX0.png)
