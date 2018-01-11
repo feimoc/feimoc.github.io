@@ -190,7 +190,7 @@ From Worker: hello master , this pipe  is 4;  this  pid  is 9328
 From Worker: From Master: hello worker[9329]
 From Worker: hello master , this pipe  is 6;  this  pid  is 9329
 ```
-消息队列
+#### 消息队列
 swoole进程通信还有第二种方式就是“消息队列”，这个消息队列其实就是Linux系统里面的msgqueue。
 
 swoole提供了2个方法，来实现消息队列的通信。
