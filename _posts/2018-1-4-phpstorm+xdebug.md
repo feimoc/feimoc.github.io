@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      phpstorm+xdebug断点调试
+title:      phpstorm+xdebug
 subtitle:   phpstorm
 date:       2018-1-4
 author:     feimo
