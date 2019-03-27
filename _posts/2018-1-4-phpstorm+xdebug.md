@@ -35,31 +35,31 @@ zend_extension="F:\phpStudy\php\php-7.0.12-nts\ext\php_xdebug.dll"
 
 ### phpstorm配置
 #### 指定本地php环境
-![](https://i.imgur.com/ip4Ov4g.png)
-![](https://i.imgur.com/8rQZQYW.png)
+![](http://www.feimoc.com/img/ip4Ov4g.png)
+![](http://www.feimoc.com/img/8rQZQYW.png)
 这里的端口设置和php.ini设置要一致，我这里设置为9000如果端口冲突请自行设置
-![](https://i.imgur.com/QljWG4i.png)
+![](http://www.feimoc.com/img/QljWG4i.png)
 
 #### 添加本地虚拟主机域名
-![](https://i.imgur.com/lAO1gso.png)
+![](http://www.feimoc.com/img/lAO1gso.png)
 
 ### 配置chrome
 首先我们需要对浏览器安装Xdebug helper插件，用于在请求中添加参数，类似：XDEBUG_SESSION_START=session_name。
 - Chrome: [https://chrome.google.com/webstore/detail/xdebug-helper/](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc)
 - Firefox: [https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/](https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/ "Firefox")
-![](https://i.imgur.com/w67ICBB.png)
+![](http://www.feimoc.com/img/w67ICBB.png)
 更改配置
-![](https://i.imgur.com/a0p5ob4.png)
+![](http://www.feimoc.com/img/a0p5ob4.png)
 
 ### 运行项目
 #### 运行项目之前开启监听
-![](https://i.imgur.com/PuDxm74.png)
+![](http://www.feimoc.com/img/PuDxm74.png)
 #### 打断点 浏览器访问
-![](https://i.imgur.com/HMPhBJH.png)
+![](http://www.feimoc.com/img/HMPhBJH.png)
 #### 首次运行域名如果出现一个弹框，点击Accept
-![](https://i.imgur.com/IBGbxbu.png)
+![](http://www.feimoc.com/img/IBGbxbu.png)
 #### 断点成功
-![](https://i.imgur.com/buNulUu.png)
+![](http://www.feimoc.com/img/buNulUu.png)
 
 - 左侧绿色三角形 ： Resume Program，表示將继续执行，直到下一个中断点停止。
 - 左侧红色方形 ： Stop，表示中断当前程序调试。
