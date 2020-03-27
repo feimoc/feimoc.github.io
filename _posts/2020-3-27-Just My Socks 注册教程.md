@@ -11,7 +11,7 @@ tags:
     - Mysql
 ---
 ### Just My Socks简介
-[Just My Socks](https://links.jianshu.com/go?to=https%3A%2F%2Fjustmysocks2.net%2Fmembers%2Faff.php%3Faff%3D11209)是[Bandwagon Host](https://links.jianshu.com/go?to=https%3A%2F%2Fbwh88.net%2Fcart.php%3Fgid%3D1)搬瓦工推出的一款  代理产品，从最初只有一个套餐月付 2.88 美元，每月 100G 流量，3台设备可用，现在增加了三个套餐：5.88美元的套餐每个月500G流量，5台设备；9.88美元的套餐，每个月1T的流量，不限设备；49.88美元的套餐，每个月1T的流量，不限设备;
+[Just My Socks](https://justmysocks2.net/members/aff.php?aff=11209)是[Bandwagon Host](https://bwh88.net/cart.php?gid=1)搬瓦工推出的一款  代理产品，从最初只有一个套餐月付 2.88 美元，每月 100G 流量，3台设备可用，现在增加了三个套餐：5.88美元的套餐每个月500G流量，5台设备；9.88美元的套餐，每个月1T的流量，不限设备；49.88美元的套餐，每个月1T的流量，不限设备;
 ![](https://upload-images.jianshu.io/upload_images/9930928-0071fce27c14f679.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
 
 
