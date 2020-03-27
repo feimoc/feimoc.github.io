@@ -25,7 +25,7 @@ tags:
 7天之内可以无条件退款。
 
 ### Just My Socks注册购买（含优惠码)
-使用Just My Socks优惠码JMS9272283 获取5.2%循环优惠，输入优惠码后点击Validate Code即可使用优惠码，点击Checkout付款：
+使用Just My Socks优惠码 **<font color=red>JMS9272283</font>** 获取5.2%循环优惠，输入优惠码后点击Validate Code即可使用优惠码，点击Checkout付款：
 ![](https://upload-images.jianshu.io/upload_images/9930928-f719e650a31c2101.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
 付款需要先注册帐号，注册完成就可以购买了。（邮箱会收到一封验证邮件，需要点击验证）
 ![](https://upload-images.jianshu.io/upload_images/9930928-539c0f89b8cda429.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)     
