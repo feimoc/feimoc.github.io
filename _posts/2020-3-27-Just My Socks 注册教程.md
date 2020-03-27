@@ -4,7 +4,7 @@ title:      Just My Socks 注册教程
 subtitle:   Just My Socks
 date:       2020-3-27
 author:     feimo
-header-img: img/mysql.png
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Linux
