@@ -4,15 +4,15 @@ title:      Just My Socks 注册教程
 subtitle:   Just My Socks
 date:       2020-3-27
 author:     feimo
-header-img: img/mysql.png
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Linux
     - Mysql
 ---
 ### Just My Socks简介
-[Just My Socks](https://links.jianshu.com/go?to=https%3A%2F%2Fjustmysocks2.net%2Fmembers%2Faff.php%3Faff%3D11209)是[Bandwagon Host](https://links.jianshu.com/go?to=https%3A%2F%2Fbwh88.net%2Fcart.php%3Fgid%3D1)搬瓦工推出的一款  代理产品，从最初只有一个套餐月付 2.88 美元，每月 100G 流量，3台设备可用，现在增加了三个套餐：5.88美元的套餐每个月500G流量，5台设备；9.88美元的套餐，每个月1T的流量，不限设备；49.88美元的套餐，每个月1T的流量，不限设备;
-![](https://upload-images.jianshu.io/upload_images/9930928-0071fce27c14f679.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+[Just My Socks](https://justmysocks2.net/members/aff.php?aff=11209)是[Bandwagon Host](https://bwh88.net/cart.php?gid=1)搬瓦工推出的一款  代理产品，从最初只有一个套餐月付 2.88 美元，每月 100G 流量，3台设备可用，现在增加了三个套餐：5.88美元的套餐每个月500G流量，5台设备；9.88美元的套餐，每个月1T的流量，不限设备；49.88美元的套餐，每个月1T的流量，不限设备;
+![](https://www.feimoc.com/img/just_list.png)
 
 
 #### Just My Socks怎么样？
@@ -26,7 +26,7 @@ tags:
 
 ### Just My Socks注册购买（含优惠码)
 使用Just My Socks优惠码**JMS9272283** 获取5.2%循环优惠，输入优惠码后点击Validate Code即可使用优惠码，点击Checkout付款：
-![](https://upload-images.jianshu.io/upload_images/9930928-f719e650a31c2101.png)
+![](https://www.feimoc.com/img/just_buy.png)
 付款需要先注册帐号，注册完成就可以购买了。（邮箱会收到一封验证邮件，需要点击验证）
-![](https://upload-images.jianshu.io/upload_images/9930928-539c0f89b8cda429.png)     
+![](https://www.feimoc.com/img/sign_in.png)     
 
