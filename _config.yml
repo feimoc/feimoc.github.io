@@ -101,7 +101,8 @@ service-worker: true
 
 friends: [
      {
-         href : "https://changyuan.github.io/",
-         title: "Change"
+         title: "Change",
+         href : "https://changyuan.github.io/"
+
      }
 ]
