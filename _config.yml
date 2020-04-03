@@ -100,8 +100,8 @@ service-worker: true
 # Friends
 
 friends: [
-   {
+     {
          href : "https://changyuan.github.io/",
          titlt: "Change"
-   }
-   ]
+     }
+]
