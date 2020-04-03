@@ -71,7 +71,6 @@ gitalk:
   owner: feimoc    #github用户名
   admin: feimoc
   distractionFreeMode: false #是否启用类似FB的阴影遮罩
-  id: md5(location.href)
 
 
 # Analytics settings
