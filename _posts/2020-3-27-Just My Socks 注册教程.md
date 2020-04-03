@@ -7,7 +7,6 @@ author:     feimo
 header-img: img/home-bg.jpg
 catalog: true
 tags:
-    - Shadowsocks
     - Just My Socks
 ---
 ### Just My Socks简介
