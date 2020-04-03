@@ -18,11 +18,11 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 
 # SNS settings
 RSS: false
-# weibo_username:     feimo
-#zhihu_username:     fei-mo-14-14
-github_username:    feimoc
-facebook_username:  profile.php?id=100015369137511
-twitter_username:   fengcaiyiyi
+#weibo_username:     feimo
+zhihu_username:     fei-mo-14-14
+#github_username:    feimoc
+#facebook_username:  profile.php?id=100015369137511
+#twitter_username:   fengcaiyiyi
 
 
 
@@ -62,7 +62,7 @@ kramdown:
 # duoshuo_username: feimoc
 # Share component is depend on Comment so we can NOT use share only.
 # duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
+  <script src="{{ site.baseurl }}/js/md5.min.js"></script>
 gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 55e363613f8fdcf6b061   #生成的clientID
@@ -70,7 +70,8 @@ gitalk:
   repo:  feimoc.github.io    #仓库名称
   owner: feimoc    #github用户名
   admin: feimoc
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  distractionFreeMode: false #是否启用类似FB的阴影遮罩
+  id: md5(location.href)
 
 
 # Analytics settings

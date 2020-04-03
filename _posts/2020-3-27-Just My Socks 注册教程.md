@@ -7,8 +7,8 @@ author:     feimo
 header-img: img/home-bg.jpg
 catalog: true
 tags:
-    - Linux
-    - Mysql
+    - Shadowsocks
+    - Just My Socks
 ---
 ### Just My Socks简介
 [Just My Socks](https://justmysocks2.net/members/aff.php?aff=11209)是[Bandwagon Host](https://bwh88.net/cart.php?gid=1)搬瓦工推出的一款  代理产品，从最初只有一个套餐月付 2.88 美元，每月 100G 流量，3台设备可用，现在增加了三个套餐：5.88美元的套餐每个月500G流量，5台设备；9.88美元的套餐，每个月1T的流量，不限设备；49.88美元的套餐，每个月1T的流量，不限设备;
