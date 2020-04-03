@@ -99,14 +99,9 @@ service-worker: true
 
 # Friends
 
-#friends: [
-#   {
-#         href: "http://zhengwuyang.com"
-#  },{
-#         href: "http://www.jianshu.com/u/e71990ada2fd"
-# # # # #    # },{
-# # # #         href: "https://apple.com"
-# # #     },{
-#         href: "https://developer.apple.com/"
-# #     }
-# 
+friends: [
+   {
+         href : "https://changyuan.github.io/",
+         titlt: "Change"
+   }
+   ]
