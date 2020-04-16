@@ -12,54 +12,55 @@ tags:
 ---
 
 ### 环境
-- 系统版本 Windows
-- PHP版本7.0
-- phpstorm版本 2017.1
+- 系统版本 Macos
+- PHP版本7.3
+- phpstorm版本2020.1
 
 ### Xdebug配置
-1. 首先去xdebug官网下载对应php版本的xdebug 放到php ext目录下面：F:\phpStudy\php\php-7.0.12-nts\ext [链接地址](https://xdebug.org/download.php)
+1. 首先去xdebug官网下载对应php版本的xdebug扩展  [链接地址](https://xdebug.org/wizard)
+   将phpinfo的信息复制到下图的输入框中，点击here就会出现对应的xdebug扩展。
+   ![](http://www.feimoc.com/img/xdebug.png)
 2. 打开php.ini添加如下代码
 ```
 [XDebug]
-xdebug.profiler_output_dir="F:\phpStudy\tmp\xdebug"
-xdebug.trace_output_dir="F:\phpStudy\tmp\xdebug"
-xdebug.remote_enable=1  
-xdebug.var_display_max_children=128 
-xdebug.var_display_max_data=51200000     
-xdebug.var_display_max_depth=5  
-xdebug.remote_host = "127.0.0.1"
-xdebug.remote_port = 9000
-xdebug.idekey = PHPSTORM 
-zend_extension="F:\phpStudy\php\php-7.0.12-nts\ext\php_xdebug.dll"   
+zend_extension =xdebug.so           #xdebug扩展文件 windows是.dll结尾
+xdebug.remote_log = "/usr/local/php/xdebug.log"   #开启xdebug日志
+xdebug.remote_enable=1            #开启远程调试
+xdebug.remote_autostart = 1      #开启远程调试自动启动
+xdebug.auto_trace =1             #启用代码自动跟踪
+xdebug.collect_vars=1            #收集变量
+xdebug.show_error_trace=1        #显示错误信息
+xdebug.remote_handler = "dbgp"  #远程调试参数，不需要可以关闭
+xdebug.remote_host= "localhost" #本地调试填写localhost 远程调试填写本机真实ip地址
+xdebug.remote_port = 9002      #端口号
+xdebug.idekey = "PHPSTORM" 
 ```
 
 ### phpstorm配置
 #### 指定本地php环境
-![](http://www.feimoc.com/img/ip4Ov4g.png)
-![](http://www.feimoc.com/img/8rQZQYW.png)
-这里的端口设置和php.ini设置要一致，我这里设置为9000如果端口冲突请自行设置
-![](http://www.feimoc.com/img/QljWG4i.png)
+![](http://www.feimoc.com/img/xdebug01.png)
+![](http://www.feimoc.com/img/xdebug02.png)
+这里的端口设置和php.ini设置要一致
+![](http://www.feimoc.com/img/xdebug03.png)
 
 #### 添加本地虚拟主机域名
-![](http://www.feimoc.com/img/lAO1gso.png)
+![](http://www.feimoc.com/img/xdebug04.png)
 
 ### 配置chrome
-首先我们需要对浏览器安装Xdebug helper插件，用于在请求中添加参数，类似：XDEBUG_SESSION_START=session_name。
+（如果开启了xdebug.remote_autostart =1 本地调试就不需要安装此插件了）。首先我们需要对浏览器安装Xdebug helper插件，用于在请求中添加参数，类似：XDEBUG_SESSION_START=session_name。
 - Chrome: [https://chrome.google.com/webstore/detail/xdebug-helper/](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc)
 - Firefox: [https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/](https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/ "Firefox")
-![](http://www.feimoc.com/img/w67ICBB.png)
+![](http://www.feimoc.com/img/xdebug05.png)
 更改配置
-![](http://www.feimoc.com/img/a0p5ob4.png)
+![](http://www.feimoc.com/img/xdebug06.png)
 
 ### 运行项目
 #### 运行项目之前开启监听
-![](http://www.feimoc.com/img/PuDxm74.png)
+![](http://www.feimoc.com/img/xdebug07.png)
 #### 打断点 浏览器访问
-![](http://www.feimoc.com/img/HMPhBJH.png)
-#### 首次运行域名如果出现一个弹框，点击Accept
-![](http://www.feimoc.com/img/IBGbxbu.png)
+![](http://www.feimoc.com/img/xdebug08.png)
 #### 断点成功
-![](http://www.feimoc.com/img/buNulUu.png)
+![](http://www.feimoc.com/img/xdebug09.png)
 
 - 左侧绿色三角形 ： Resume Program，表示將继续执行，直到下一个中断点停止。
 - 左侧红色方形 ： Stop，表示中断当前程序调试。
