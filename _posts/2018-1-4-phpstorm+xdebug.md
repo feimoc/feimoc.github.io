@@ -74,7 +74,7 @@ xdebug.idekey = "PHPSTORM"
 断点成功以后过十几秒浏览器可能会报500错误，我们需要改下nginx的配置,添加fastcgi_read_timeout
 ![](http://www.feimoc.com/img/xdebug10.png)
 fastcgi_read_timeout是指fastcgi进程向nginx进程发送response的整个过程的超时时间，单位秒。
-
+![](http://www.feimoc.com/img/xdebug11.png)
 - 左侧绿色三角形 ： Resume Program，表示將继续执行，直到下一个中断点停止。
 - 左侧红色方形 ： Stop，表示中断当前程序调试。
 - 上方第一个图形示 ： Step Over，跳过当前函数。
