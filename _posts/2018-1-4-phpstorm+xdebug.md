@@ -22,16 +22,26 @@ tags:
 2. 打开php.ini添加如下代码
 ```
 [XDebug]
-zend_extension =xdebug.so           #xdebug扩展文件 windows是.dll结尾
-xdebug.remote_log = "/usr/local/php/xdebug.log"   #开启xdebug日志
-xdebug.remote_enable=1            #开启远程调试
-xdebug.remote_autostart = 1      #开启远程调试自动启动
-xdebug.auto_trace =1             #启用代码自动跟踪
-xdebug.collect_vars=1            #收集变量
-xdebug.show_error_trace=1        #显示错误信息
-xdebug.remote_handler = "dbgp"  #远程调试参数，不需要可以关闭
-xdebug.remote_host= "localhost" #本地调试填写localhost 远程调试填写本机真实ip地址
-xdebug.remote_port = 9002      #端口号
+#xdebug扩展文件 windows是.dll结尾
+zend_extension =xdebug.so           
+#开启xdebug日志
+xdebug.remote_log = "/usr/local/php/xdebug.log"  
+#开启远程调试 
+xdebug.remote_enable=1           
+#开启远程调试自动启动 
+#启用代码自动跟踪
+xdebug.remote_autostart = 1    
+#收集变量  
+xdebug.auto_trace =1        
+#显示错误信息     
+xdebug.collect_vars=1       
+#远程调试参数，不需要可以关闭     
+xdebug.show_error_trace=1        
+xdebug.remote_handler = "dbgp"  
+#本地调试填写localhost 远程调试填写本机真实ip地址
+xdebug.remote_host= "localhost" 
+#端口号
+xdebug.remote_port = 9002      
 xdebug.idekey = "PHPSTORM" 
 ```
 
@@ -46,7 +56,7 @@ xdebug.idekey = "PHPSTORM"
 ![](http://www.feimoc.com/img/xdebug04.png)
 
 ### 配置chrome
-（如果开启了xdebug.remote_autostart =1 本地调试就不需要安装此插件了）。首先我们需要对浏览器安装Xdebug helper插件，用于在请求中添加参数，类似：XDEBUG_SESSION_START=session_name。
+（如果开启了xdebug.remote_autostart =1 本地调试就不需要安装此插件了,请忽略此步）首先我们需要对浏览器安装Xdebug helper插件，用于在请求中添加参数，类似：XDEBUG_SESSION_START=session_name。
 - Chrome: [https://chrome.google.com/webstore/detail/xdebug-helper/](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc)
 - Firefox: [https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/](https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/ "Firefox")
 ![](http://www.feimoc.com/img/xdebug05.png)
