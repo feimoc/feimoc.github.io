@@ -29,14 +29,14 @@ xdebug.remote_log = "/usr/local/php/xdebug.log"
 #开启远程调试 
 xdebug.remote_enable=1           
 #开启远程调试自动启动 
-#启用代码自动跟踪
-xdebug.remote_autostart = 1    
-#收集变量  
-xdebug.auto_trace =1        
-#显示错误信息     
+xdebug.remote_autostart = 1
+#启用代码自动跟踪     
+xdebug.auto_trace =1    
+#收集变量         
 xdebug.collect_vars=1       
-#远程调试参数，不需要可以关闭     
-xdebug.show_error_trace=1        
+#显示错误信息    
+xdebug.show_error_trace=1   
+#远程调试参数，不需要可以关闭       
 xdebug.remote_handler = "dbgp"  
 #本地调试填写localhost 远程调试填写本机真实ip地址
 xdebug.remote_host= "localhost" 
