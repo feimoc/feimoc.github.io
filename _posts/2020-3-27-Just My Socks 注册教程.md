@@ -2,7 +2,7 @@
 layout:     post
 title:      Just My Socks 注册教程
 subtitle:   Just My Socks
-date:       2020-3-27
+date:       2020-1-27
 author:     feimo
 header-img: img/home-bg.jpg
 catalog: true
