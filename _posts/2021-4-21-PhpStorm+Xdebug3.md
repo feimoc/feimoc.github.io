@@ -24,7 +24,7 @@ Xdebug3更新了配置参数、简化了配置选项，跟Xdebug2配置有所不
 1. 首先去 [xdebug](https://xdebug.org/wizard) 官网下载对应php版本的xdebug扩展，将phpinfo的信息复制到下图的输入框中，点击here就会出现对应的xdebug扩展。
    ![](http://www.feimoc.com/img/xdebug.png)
 2. 打开php.ini添加如下代码
-```
+```ini
 [XDebug]
 zend_extension = xdebug.so
 xdebug.log  = "/usr/local/php/xdebug.log"  

@@ -20,7 +20,7 @@ tags:
 1. 首先去 [xdebug](https://xdebug.org/wizard) 官网下载对应php版本的xdebug扩展，将phpinfo的信息复制到下图的输入框中，点击here就会出现对应的xdebug扩展。
    ![](http://www.feimoc.com/img/xdebug.png)
 2. 打开php.ini添加如下代码
-```
+```ini
 [XDebug]
 #xdebug扩展文件 windows是.dll结尾
 zend_extension =xdebug.so           
