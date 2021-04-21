@@ -106,7 +106,7 @@ remote_port = 9003
 - Chrome: [https://chrome.google.com/webstore/detail/xdebug-helper/](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc)
 - Firefox: [https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/](https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/ "Firefox")
   ![](http://www.feimoc.com/img/xdebug3/remote3.png)
-更改配置
+- 更改配置
   ![](http://www.feimoc.com/img/xdebug3/remote4.png)
   
 #### 开启调试（参考上面本地调试）
