@@ -12,7 +12,7 @@ tags:
 ---
 
 Xdebug3更新了配置参数、简化了配置选项，跟Xdebug2配置有所不同，所以需要我们重新配置下。
-![](http://www.feimoc.com/img/xdebugdiff.jpg)
+![](http://www.feimoc.com/img/xdiff.png)
 
 ### 环境
 - 系统版本：Mac OS
