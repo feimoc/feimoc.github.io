@@ -53,7 +53,7 @@ xdebug.var_display_max_data  = 2048
 ![](http://www.feimoc.com/img/xdebug3/xdebug3.png)
 ### 运行项目
 #### 运行项目之前开启监听
-![](http://www.feimoc.com/img/xdebug3/xdebug044.png)
+![](http://www.feimoc.com/img/xdebug3/xdebug04.png)
 #### 打断点 浏览器访问
 ![](http://www.feimoc.com/img/xdebug3/xdebug05.png)
 #### 断点成功
