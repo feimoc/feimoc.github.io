@@ -27,7 +27,7 @@ Xdebug3更新了配置参数、简化了配置选项，跟Xdebug2配置有所不
 ```ini
 [XDebug]
 zend_extension = xdebug.so
-xdebug.log  = "/usr/local/php/xdebug.log"  
+xdebug.log  = /usr/local/php/xdebug.log  
 xdebug.mode = develop,debug
 xdebug.start_with_request = default|default
 xdebug.client_port = 9003

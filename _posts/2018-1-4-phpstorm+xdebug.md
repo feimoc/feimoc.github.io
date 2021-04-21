@@ -25,7 +25,7 @@ tags:
 #xdebug扩展文件 windows是.dll结尾
 zend_extension =xdebug.so           
 #开启xdebug日志
-xdebug.remote_log = "/usr/local/php/xdebug.log"  
+xdebug.remote_log = /usr/local/php/xdebug.log 
 #开启远程调试 
 xdebug.remote_enable=1           
 #开启远程调试自动启动 
@@ -37,9 +37,9 @@ xdebug.collect_vars=1
 #显示错误信息    
 xdebug.show_error_trace=1   
 #远程调试参数，不需要可以关闭       
-xdebug.remote_handler = "dbgp"  
+xdebug.remote_handler = dbgp  
 #本地调试填写localhost 远程调试填写本机真实ip地址
-xdebug.remote_host= "localhost" 
+xdebug.remote_host= localhost 
 #端口号
 xdebug.remote_port = 9002      
 xdebug.idekey = "PHPSTORM" 
