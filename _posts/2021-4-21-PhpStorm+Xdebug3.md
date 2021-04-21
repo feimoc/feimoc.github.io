@@ -14,7 +14,7 @@ tags:
 Xdebug3更新了配置参数，跟Xdebug2配置有所不同，所以需要我们重新配置下。
 
 ### 环境
-- 系统版本：Macos
+- 系统版本：Mac OS
 - PHP版本 ：7.2
 - phpstorm版本：2021.1
 - Xdebug版本：3.0.4
