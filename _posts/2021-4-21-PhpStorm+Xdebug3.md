@@ -11,7 +11,8 @@ tags:
 - Xdebug
 ---
 
-Xdebug3更新了配置参数，跟Xdebug2配置有所不同，所以需要我们重新配置下。
+Xdebug3更新了配置参数、简化了配置选项，跟Xdebug2配置有所不同，所以需要我们重新配置下。
+![](http://www.feimoc.com/img/xdebugdiff.jpg)
 
 ### 环境
 - 系统版本：Mac OS
