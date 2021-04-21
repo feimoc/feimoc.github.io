@@ -41,8 +41,8 @@ xdebug.var_display_max_data  = 2048
 在Xdebug 2中，每个功能都有一个启用设置，使用Xdebug 3我们只需要设置xdebug.mode一个参数就行。详细说明请看[官方文档](https://xdebug.org/docs/upgrade_guide)
 
 #### 参数详解
-- xdebug.mode 必须与xdebug.start_with_request搭配使用。 不同的mode的不同的用途，如果要多个模式一起开启，就用`,`分隔开就行。develop主要是开启var_dump格式化显示，debug主要是开启步骤调试。详情请参考[官方文档](https://xdebug.org/docs/all_settings#mode)
-- xdebug.start_with_request 用于设置xdebug.mode 不同model的启用和关闭
+- xdebug.mode 必须与xdebug.start_with_request搭配使用。 不同的mode有不同的用途，如果要多个模式一起开启，就用`,`分隔开就行。develop主要是开启var_dump格式化显示，debug主要是开启步骤调试。详情请参考[官方文档](https://xdebug.org/docs/all_settings#mode)
+- xdebug.start_with_request 用于设置xdebug.mode 不同model的启用和关闭。设置多个model用`|`分割。
 - xdebug.remote_host 、xdebug.remote_port 更改为xdebug.client_host、xdebug.client_port
 
 ### phpstorm本地调试配置
