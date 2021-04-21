@@ -106,5 +106,5 @@ remote_port = 9003
 更改配置
   ![](http://www.feimoc.com/img/xdebug3/remote4.png)
 #### 开启调试（步骤和本地调试一样）
-#####调试成功
+#### 调试成功
 ![](http://www.feimoc.com/img/xdebug3/remote5.png)
