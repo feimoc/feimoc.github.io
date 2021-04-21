@@ -46,27 +46,24 @@ xdebug.var_display_max_data  = 2048
 
 ### phpstorm本地调试配置
 #### 指定本地php环境
-![](https://img2020.cnblogs.com/blog/1724006/202104/1724006-20210421115408537-126490612.png)
+![](http://www.feimoc.com/img/xdebug3/xdebug1.png)
 这里的端口设置和php.ini设置要一致
-![](https://img2020.cnblogs.com/blog/1724006/202104/1724006-20210421115606496-1685570606.png)
-
+![](http://www.feimoc.com/img/xdebug3/xdebug2.png)
 #### 添加本地虚拟主机域名
-![](https://img2020.cnblogs.com/blog/1724006/202104/1724006-20210421115702926-1521709180.png)
-
+![](http://www.feimoc.com/img/xdebug3/xdebug3.png)
 ### 运行项目
 #### 运行项目之前开启监听
-![](https://img2020.cnblogs.com/blog/1724006/202104/1724006-20210421115920665-1415573091.png)
+![](http://www.feimoc.com/img/xdebug3/xdebug044.png)
 #### 打断点 浏览器访问
-![](https://img2020.cnblogs.com/blog/1724006/202104/1724006-20210421115939379-712310443.png)
+![](http://www.feimoc.com/img/xdebug3/xdebug05.png)
 #### 断点成功
-![](https://img2020.cnblogs.com/blog/1724006/202104/1724006-20210421120014055-665310500.png)
-
+![](http://www.feimoc.com/img/xdebug3/xdebug06.png)
 ### phpstorm远程调试配置
 #### 连接远程服务器
 远程调试需要我们配置连接远程服务器配置
-![](https://img2020.cnblogs.com/blog/1724006/202104/1724006-20210421120336587-795464927.png)
+![](http://www.feimoc.com/img/xdebug3/remote1.png)
 debug server需要勾选use path mapping，其他配置和本地调试一样。
-
+![](http://www.feimoc.com/img/xdebug3/remote2.png)
 #### 内网穿透工具（如果是内网和本地虚拟机不需要配置）
 由于本地需要和远程服务器通信，我们需要安装内网穿透工具。这里推荐[frp](https://github.com/fatedier/frp)
 
@@ -105,12 +102,9 @@ remote_port = 9003
 首先我们需要对浏览器安装Xdebug helper插件，用于在请求中添加参数，类似：XDEBUG_SESSION_START=session_name。
 - Chrome: [https://chrome.google.com/webstore/detail/xdebug-helper/](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc)
 - Firefox: [https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/](https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/ "Firefox")
-  ![](https://img2020.cnblogs.com/blog/1724006/202104/1724006-20210421124343279-1207352950.png)
-
+  ![](http://www.feimoc.com/img/xdebug3/remote3.png)
 更改配置
-![](https://img2020.cnblogs.com/blog/1724006/202104/1724006-20210421124356456-1985944527.png)
-
+  ![](http://www.feimoc.com/img/xdebug3/remote4.png)
 #### 开启调试（步骤和本地调试一样）
 #####调试成功
-![](https://img2020.cnblogs.com/blog/1724006/202104/1724006-20210421124624281-1590187306.png)
-
+![](http://www.feimoc.com/img/xdebug3/remote5.png)

@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c1939b9-1390-42ea-981d-130a0534ab18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xdebug3/remote1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xdebug3/remote2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xdebug3/remote3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xdebug3/remote4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xdebug3/remote5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xdebug3/xdebug04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xdebug3/xdebug05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xdebug3/xdebug06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xdebug3/xdebug1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xdebug3/xdebug2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xdebug3/xdebug3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-4-21-PhpStorm+Xdebug3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-4-21-PhpStorm+Xdebug3.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +38,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/xdebug3" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/xdebug3" />
       <recent name="$PROJECT_DIR$/_posts" />
     </key>
   </component>
@@ -45,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618975312056</updated>
       <workItem from="1618975316067" duration="113000" />
-      <workItem from="1618980659911" duration="160000" />
+      <workItem from="1618980659911" duration="677000" />
     </task>
     <servers />
   </component>
