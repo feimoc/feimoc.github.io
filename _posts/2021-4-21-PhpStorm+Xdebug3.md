@@ -4,7 +4,7 @@ title:      PhpStorm+Xdebug3
 subtitle:   phpstorm
 date:       2021-3-21
 author:     feimo
-header-img: https://files.dbnuo.com/wallpaper/wallhaven-96ymj1.webp
+header-img: img/xdebug3-bg.jpg
 catalog: true
 tags:
 - phpstorm
