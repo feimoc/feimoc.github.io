@@ -108,6 +108,8 @@ remote_port = 9003
   ![](http://www.feimoc.com/img/xdebug3/remote3.png)
 更改配置
   ![](http://www.feimoc.com/img/xdebug3/remote4.png)
+  
 #### 开启调试（参考上面本地调试）
+
 #### 调试成功
 ![](http://www.feimoc.com/img/xdebug3/remote5.png)
