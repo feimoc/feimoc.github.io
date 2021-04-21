@@ -4,7 +4,7 @@ title:      phpstorm+xdebug
 subtitle:   phpstorm
 date:       2018-1-4
 author:     feimo
-header-img: img/post-bg-phpstorm.jpg
+header-img: img/background/blog_bg_01.jpg
 catalog: true
 tags:
     - phpstorm

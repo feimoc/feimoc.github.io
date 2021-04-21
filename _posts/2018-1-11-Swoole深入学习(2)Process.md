@@ -4,7 +4,7 @@ title:      Swoole深入学习(2)Process
 subtitle:   php 进阶
 date:       2018-1-11
 author:     feimo
-header-img: img/tag-bg-o.jpg
+header-img: img/background/blog_bg_03.jpg
 catalog: true
 tags:
     - PHP

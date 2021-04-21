@@ -4,7 +4,7 @@ title:      php的Socket通讯（一）
 subtitle:   php 进阶
 date:       2017-11-17
 author:     feimo
-header-img: img/tag-bg-o.jpg
+header-img: img/background/blog_bg_06.jpg
 catalog: true
 tags:
     - PHP
