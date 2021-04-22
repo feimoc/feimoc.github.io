@@ -67,7 +67,7 @@ xdebug.var_display_max_data  = 2048
 ![](http://www.feimoc.com/img/xdebug3/remote1.png)
 debug server需要勾选use path mapping，其他配置和本地调试一样。
 ![](http://www.feimoc.com/img/xdebug3/remote2.png)
-#### 内网穿透工具（如果是内网和本地虚拟机不需要配置）
+#### 内网穿透工具（如果远程服务器是内网和本地虚拟机不需要配置）
 由于本地需要和远程服务器通信，我们需要安装内网穿透工具。这里推荐[frp](https://github.com/fatedier/frp)
 
 ##### 远程服务器frp配置
