@@ -30,6 +30,7 @@ zend_extension = xdebug.so
 xdebug.log  = /usr/local/php/xdebug.log  
 xdebug.mode = develop,debug
 xdebug.start_with_request = default|default
+#xdebug.start_with_request = yes|yes #当改为yes时所有请求都会走debug，不需要设置idekey 
 xdebug.client_port = 9003
 xdebug.client_host = 127.0.0.1 
 xdebug.remote_handler = dbgp 
